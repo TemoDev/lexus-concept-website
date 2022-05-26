@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HeaderComponent } from './header/header.component';
+import { CarInventoryComponent } from './car-inventory/car-inventory.component';
+import { FooterComponent } from './footer/footer.component';
+import { CarDetailComponent } from './car-detail/car-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     PageNotFoundComponent,
-    HeaderComponent
+    HeaderComponent,
+    CarInventoryComponent,
+    FooterComponent,
+    CarDetailComponent
   ],
   imports: [
     BrowserModule,

@@ -8,8 +8,7 @@
   background-color: white;
   text-align: center;
   color: #000;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 1rem 0;
   display: flex;
 }
 .nav__active {
@@ -81,5 +80,24 @@
     &::before {
       transform: rotate(-45deg);
     }
+  }
+}
+
+
+@media screen and(min-width:768px){
+  .burger{
+    visibility: hidden;
+  }
+  .nav-item{
+    visibility: visible;
+  }
+  .nav-items{
+    display: flex;
+    position:relative;
+    justify-content: flex-end;
+    transform: translate(0,0);
+    width: auto;
+    top: 0;
+  left: 0;
   }
 }
