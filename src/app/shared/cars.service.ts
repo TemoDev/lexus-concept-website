@@ -38,7 +38,7 @@ export class CarsService {
       [
         '../assets/cars/ec6-front.jpg',
         '../assets/cars/ec6-back.jpg',
-        '../assets/cars/ec6-side.jpg',
+        '../assets/cars/ec6-side.webp',
         '../assets/cars/ec6-interior.jpg',
       ]
     ),
@@ -48,10 +48,10 @@ export class CarsService {
       55000,
       '../assets/cars/es6-hero.jpg',
       [
-        '../assets/cars/es6-front.jpg',
+        '../assets/cars/es6-front.webp',
         '../assets/cars/es6-back.jpg',
-        '../assets/cars/es6-side.jpg',
-        '../assets/cars/es6-interior.jpg',
+        '../assets/cars/es6-side.png',
+        '../assets/cars/es6-interior.jpeg',
       ]
     ),
     new CarModel(
@@ -62,7 +62,7 @@ export class CarsService {
       [
         '../assets/cars/es8-front.jpg',
         '../assets/cars/es8-back.jpg',
-        '../assets/cars/es8-side.jpg',
+        '../assets/cars/es8-side.png',
         '../assets/cars/es8-interior.jpg',
       ]
     ),
@@ -70,7 +70,8 @@ export class CarsService {
       'Canoo lifestyle (Base)',
       `The Lifestyle Vehicle has the interior space of a large SUV, with the exterior footprint of a compact car and is made for urban, adventure, families, fleet, ride hailing and more. Anticipated specifications include up to 300hp and 332 lb. -ft. of peak motor torque with 250 miles of battery range.`,
       34000,
-      '../assets/cars/lifestyle-hero.jpg'
+      '../assets/cars/lifestyle-hero.jpg',
+      []
     ),
   ];
 

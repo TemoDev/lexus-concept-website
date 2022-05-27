@@ -4,6 +4,6 @@ export class CarModel {
     public desc: string,
     public price: number,
     public heroImg: string,
-    public gallery?: String[]
+    public gallery: String[]
   ) {}
 }

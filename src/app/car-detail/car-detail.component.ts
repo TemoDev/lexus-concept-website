@@ -11,6 +11,7 @@ import { CarsService } from '../shared/cars.service';
 export class CarDetailComponent implements OnInit {
 
   car!: CarModel;
+  carHeroImgURL: [] = [];
 
   constructor(private carsService: CarsService, private route: ActivatedRoute) { }
 
@@ -18,9 +19,8 @@ export class CarDetailComponent implements OnInit {
     this.route.params.subscribe(
       (params: Params) => {
       this.car = this.carsService.getCars()[params['id']];
-    }
+    } 
     )
-    console.log(this.car);
   }
 
 }
