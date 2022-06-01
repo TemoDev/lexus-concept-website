@@ -1,16 +1,21 @@
 <section class="container-xxl pt-5 mb-5">
     <div class="row mb-5 vh-100 align-items-center align-items-lg-end flex-lg-row-reverse">
-        <div class="col-lg align-self-end align-self-lg-center">
-            <img class="mw-100" [src]="car.gallery[0]" alt="{{ car.name }}">
+        <div class="col-lg align-self-end align-self-lg-center overflow-hidden">
+            <img class="mw-100" [src]="car.gallery[0]" alt="{{ car.name }}" #carDetailHero style="  object-fit: cover;
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            ">
         </div>
         <div class="col-lg-4 mb-5">
-            <h1 class="display-1 text-uppercase fw-normal">{{ car.name }}</h1>
+            <h1 class="display-1 text-uppercase fw-normal" #carDetailName>{{ car.name }}</h1>
         </div>
     </div>
 
     <div class="row mt-5 align-items-center" style="margin-bottom: 16rem;">
-        <div class="col-lg-7 mb-5 mb-lg-0">
-            <img class="mw-100" [src]="car.gallery[1]" alt="{{ car.name }}">
+        <div class="col-lg-7 mb-5 mb-lg-0 overflow-hidden">
+            <img class="mw-100" [src]="car.gallery[1]" alt="{{ car.name }}" #carDescImg style="  object-fit: cover;
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            transform: scale(1.2);
+            ">
         </div>
         <div class="col">
             <h1 class="display-3">Overview</h1>
@@ -22,12 +27,12 @@
 
     <div class="row" style="margin-bottom: 8rem;">
         <div class="col-lg-6">
-            <img class="mw-100"  [src]="car.gallery[2]" alt="{{ car.name }}">
+            <img class="mw-100"  [src]="car.gallery[2]" alt="{{ car.name }}" #carDetailGallery>
         </div>
     </div>
     <div class="row mt-5 mb-5" >
         <div class="col-lg-6 ms-auto">
-            <img class="mw-100"  [src]="car.gallery[3]" alt="{{ car.name }}">
+            <img class="mw-100"  [src]="car.gallery[3]" alt="{{ car.name }}" #carDetailGallery1>
         </div>
     </div>
 

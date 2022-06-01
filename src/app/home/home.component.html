@@ -1,28 +1,28 @@
-<section class="home-section">
-  <img class="home-img" src="../../assets/Hero.jpg" alt="" />
+<section class="home-section overflow-hidden">
+  <img class="home-img" src="../../assets/Hero.jpg" alt="hero img" #introHeroImg />
   <div class="container-xxl">
     <div class="intro-content">
-      <div class="intro-title">Lexus LF-30 Electrified</div>
-      <p class="intro-sub">Available December 24</p>
+      <div class="intro-title" #introTitle>Lexus LF-30 Electrified</div>
+      <p class="intro-sub" #introSub>Available December 24</p>
     </div>
-    <div class="intro-cta">
-      <a href="#">pre-order</a>
-      <a href="#" class="intro-cta__detail">details</a>
+    <div class="intro-cta" #introCta>
+      <a>pre-order</a>
+      <a routerLink='../lf-30' class="intro-cta__detail">details</a>
     </div>
   </div>
 </section>
 
-<section class="container-xxl pt-5 pb-5">
-  <h1 class="fw-light text-center" style="font-size: 3rem">We Are Future</h1>
-  <p class="text-center mt-5">
+<section class="container-xxl pt-5 pb-5 my-5">
+  <h1 class="fw-light text-center" style="font-size: 3rem" #brandTitle>We Are Future</h1>
+  <p class="text-center mt-5" #brandTiTleSub>
     Future is a collective initiative by EV industry to stre3amline and reinvent
     the automotive acqusation expereience.
   </p>
-  <div class="brands d-flex flex-wrap justify-content-center gap-5 mt-5">
-    <img src="../../assets/Tesla.svg" class="mw-50" alt="Tesla" />
-    <img src="../../assets/Lucid.svg" class="mw-50" alt="Lucid" />
-    <img src="../../assets/Canoo.svg" class="mw-50" alt="Canoo" />
-    <img src="../../assets/Nio.svg" class="mw-50" alt="Nio" />
+  <div class="brands d-flex flex-wrap justify-content-center gap-5 mt-5" #brandImgs>
+    <img style="transition:all .5s ease-in-out;" src="../../assets/Tesla.svg" class="mw-50" alt="Tesla" />
+    <img style="transition:all .5s ease-in-out;" src="../../assets/Lucid.svg" class="mw-50" alt="Lucid" />
+    <img style="transition:all .5s ease-in-out;" src="../../assets/Canoo.svg" class="mw-50" alt="Canoo" />
+    <img style="transition:all .5s ease-in-out;" src="../../assets/Nio.svg" class="mw-50" alt="Nio" />
   </div>
 </section>
 

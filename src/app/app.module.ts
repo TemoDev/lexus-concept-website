@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { CarInventoryComponent } from './car-inventory/car-inventory.component';
 import { FooterComponent } from './footer/footer.component';
 import { CarDetailComponent } from './car-detail/car-detail.component';
+import { Lf30Component } from './lf30/lf30.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CarDetailComponent } from './car-detail/car-detail.component';
     HeaderComponent,
     CarInventoryComponent,
     FooterComponent,
-    CarDetailComponent
+    CarDetailComponent,
+    Lf30Component
   ],
   imports: [
     BrowserModule,
