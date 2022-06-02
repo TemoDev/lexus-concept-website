@@ -65,14 +65,7 @@ export class CarsService {
         '../assets/cars/es8-side.png',
         '../assets/cars/es8-interior.jpg',
       ]
-    ),
-    new CarModel(
-      'Canoo lifestyle (Base)',
-      `The Lifestyle Vehicle has the interior space of a large SUV, with the exterior footprint of a compact car and is made for urban, adventure, families, fleet, ride hailing and more. Anticipated specifications include up to 300hp and 332 lb. -ft. of peak motor torque with 250 miles of battery range.`,
-      34000,
-      '../assets/cars/lifestyle-hero.jpg',
-      []
-    ),
+    )
   ];
 
   getCars() {
